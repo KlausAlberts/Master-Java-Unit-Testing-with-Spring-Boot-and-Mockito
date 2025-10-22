@@ -23,10 +23,14 @@
 hs_err_pid*
 replay_pid*
 
+# Git #
+.git
+
 # Eclipse IDE #
 .settings
 .classpath
 .project
+target/
 
 # IntelliJ IDEA #
 .idea
