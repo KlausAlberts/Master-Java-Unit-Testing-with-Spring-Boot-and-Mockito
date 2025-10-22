@@ -23,7 +23,7 @@ public class HelloWorldControllerTest {
 
 		RequestBuilder request = MockMvcRequestBuilders.get("/hello-world").accept(MediaType.APPLICATION_JSON);
 
-		mockMvc.perform(request).andExpect(status().isOk()).andExpect(content().string("Hello World")).andReturn();
+		mockMvc.perform(request).andExpect(status().isOk()).andExpect(content().string("Hello World!")).andReturn();
 
 	}
 
